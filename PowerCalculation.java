@@ -3,9 +3,9 @@ public class PowerCalculation{
 public static void main(String []args){
 Scanner input=new Scanner(System.in);
 System.out.println("Enter the base :");
-double b=input.nextInt();
+double b=input.nextDouble();
 System.out.println("Enter the exponent :");
-double e=input.nextInt();
-System.out.print("Area of the cylinder is :"+Math.pow(b,e));
+double e=input.nextDouble();
+System.out.print("value is :"+Math.pow(b,e));
 }
 }
